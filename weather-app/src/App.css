@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0f0f0f;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* main card */
+.app {
+  width: 1200px;
+  height: 650px;
+
+  background: #1a1a1a;
+  border-radius: 24px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  text-align: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Current Weather (Left + Center) */
+.current-weather {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.current-weather h1 {
+  font-size: 72px;
+  margin: 0;
+}
+
+.condition {
+  color: #ccc;
+  margin: 8px 0;
+}
+
+.extra {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 100px;
+}
+
+/* Weekly Forecast Card (Right) */
+.weekly {
+  width: 220px;
+  background: #222;
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.day {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+/* Hourly Forecast (Bottom) */
+.hourly {
+  display: flex;
+  justify-content: space-between;
+  color: #bbb;
+  font-size: 14px;
+  margin-top: 20px;
+}
